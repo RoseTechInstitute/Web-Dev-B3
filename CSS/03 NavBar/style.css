@@ -1,0 +1,39 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+.nav-btn{
+    background-color: #a1252f;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.container{
+    background-color: #a1252f;
+    height: 500px;
+    width: 500px;
+}
+.box{
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+}
