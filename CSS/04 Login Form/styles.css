@@ -4,4 +4,78 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.44);
+    padding: 1em;
+    border-radius: 10px;
+    gap: .5em;
+}
+
+.card h3{
+    color: #1a8394;
+}
+
+
+input[type="email"]{
+    padding: .5em 1em .5em 1em;
+    border: 2px solid rgb(93, 210, 208);
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+input[type="password"]{
+    padding: .5em 1em .5em 1em;
+    border: 2px solid rgb(93, 210, 208);
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.loginBTN{
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: .5em 1em .5em 1em;
+    background-color: rgba(93, 210, 208, 0.87);
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+.googleBtn{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: .5em 1em .5em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+
+.googleBtn img{
+    
+    width: 20px;
+    height: 20px;
+   
+}
+
+.login_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.login_footer span{
+    font-size: 12px;
 }
