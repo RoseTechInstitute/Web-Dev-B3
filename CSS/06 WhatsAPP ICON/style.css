@@ -1,0 +1,19 @@
+.fixed-icon{
+    position: fixed;
+    top: 80%;
+    left: 90%;
+    background-color: green;
+    color: white;
+    border-radius: 100%;
+    padding: .2em;
+    font-size: 40px;
+}
+
+body{
+    min-height: 200vh;
+}
+
+a{
+    color: white;
+    
+}

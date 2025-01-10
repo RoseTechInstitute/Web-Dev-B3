@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.static-element {
+    background-color: lightblue;
+    padding: 20px;
+}
+.relative-element {
+    position: relative;
+    top: 10px;
+    background-color: lightgreen;
+    padding: 20px;
+}
+.absolute-parent {
+    position: relative;
+    background-color: lightcoral;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.absolute-element {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: lightyellow;
+    padding: 10px;
+}
+.fixed-element {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    background-color: lightgray;
+    padding: 10px;
+}
+.sticky-element {
+    position: sticky;
+    top: 0;
+    background-color: lightpink;
+    padding: 10px;
+}
