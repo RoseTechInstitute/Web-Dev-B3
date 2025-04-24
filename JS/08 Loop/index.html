@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop</title>
+</head>
+<body>
+
+        <input id="cityName" type="text" placeholder="enter your city name">
+        <button onclick="cityCheck()">Search</button>
+   
+    
+
+
+    <script>
+        const cityCheck = ()=>{
+            let userCity = document.getElementById("cityName").value
+            console.log(userCity)
+
+            // if(userCity === "karachi"){
+            //     alert("Yes You are in the list")
+            // }else if(userCity === "lahore"){
+            //     alert("Yes You are in the list")
+            // } else if(userCity === "islamabad"){
+            //     alert("Yes You are in the list")
+            // }else{
+            //     alert("Sorry, You are not in the list")
+            // }
+
+            let listedCities = ["karachi","lahore", "islamabad"]
+
+            for(let i = 0; i<listedCities.length; i++){
+                if(userCity === listedCities[i]){
+                    alert("You Are in the list")
+                    break;
+                }else{
+                    alert("You are not in the list")
+                }
+            }
+        }
+       
+    </script>
+</body>
+</html>
